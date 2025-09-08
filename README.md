@@ -1,5 +1,11 @@
 # A11y-Widget-Place-Anywhere-Opera-Extension
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](LICENSE)
+![Vanilla JS](https://img.shields.io/badge/JS-vanilla-informational)
+![No Dependencies](https://img.shields.io/badge/deps-none-success)
+![Accessible](https://img.shields.io/badge/a11y-WCAG%202.1%2B-brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4)
+
 A privacy-friendly accessibility toolkit for Opera that works on (almost) any site. It adds a floating button that opens a panel with options like dark mode, high-contrast, text scaling/spacing, dyslexia-friendly fonts, always-visible focus rings, image hiding, grayscale, pause animations, reading mask, and a smart text-to-speech reader (selection, hover, or page content).
 
 ## What it does
