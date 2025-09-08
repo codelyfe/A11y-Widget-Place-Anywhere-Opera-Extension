@@ -71,11 +71,6 @@ See the repository’s LICENSE file.
 
 ---
 
-### Quick links (Opera docs)
-
-* Pack/Developer options and workflow: Opera Help → **Basics** / **Testing**. ([Opera Help][2])
-* Publishing overview: Opera Help → **Publishing Guidelines**. ([Opera Help][4])
-
 [1]: https://help.opera.com/en/extensions/testing/ "Testing and Debugging"
 [2]: https://help.opera.com/en/extensions/basics/ "The Basics of Making an Extension"
 [3]: https://www.reddit.com/r/operabrowser/comments/nvja92/am_i_able_to_add_an_extension_from_my_files/ "Am I able to add an extension from my files rather than from ..."
