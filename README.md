@@ -24,9 +24,7 @@ A privacy-friendly accessibility toolkit for Opera that works on (almost) any si
 
 ---
 
-## Install from GitHub (Unpacked, for development)
-
-Use this when you want to try or tweak the extension without publishing.
+## Install from GitHub (Unpacked)
 
 1. **Get the files**
 
