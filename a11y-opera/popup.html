@@ -1,0 +1,30 @@
+<!--
+  ╔══════════════════════════════════════════════════════════════════════╗
+  ║  SHIPWR3CK • CODELYFE                                                ║
+  ║  Author : Randal “Codelyfe” Burger Jr                                ║
+  ║  Web    : https://shipwr3ck.com                                      ║
+  ║  GitHub : https://github.com/codelyfe                                 ║
+  ║  License: GPL-2.0-or-later                                           ║
+  ║  Motto  : Build the impossible. Include everyone.                    ║
+  ╚══════════════════════════════════════════════════════════════════════╝
+-->
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<title>A11y Widget</title>
+<style>
+  body{margin:12px 14px;font:14px/1.3 system-ui,Segoe UI,Roboto,Arial}
+  .row{display:flex;align-items:center;justify-content:space-between;gap:10px;min-width:220px}
+  .switch{position:relative;inline-size:44px;block-size:24px;background:#d1d5db;border-radius:999px;cursor:pointer}
+  .knob{position:absolute;inset-block:2px;inset-inline-start:2px;inline-size:20px;block-size:20px;background:#fff;border-radius:999px;transition:transform .2s}
+  .on .switch{background:#0b5cff}
+  .on .knob{transform:translateX(20px)}
+  .hint{margin-top:8px;color:#6b7280;font-size:12px}
+</style>
+<div id="wrap" class="row">
+  <span>A11y Widget</span>
+  <div id="toggle" class="switch" role="switch" aria-checked="false" tabindex="0"><span class="knob"></span></div>
+</div>
+<div class="hint">Enable/disable on all sites.</div>
+<script src="popup.js"></script>
+</html>
