@@ -47,8 +47,27 @@ html[data-a11y-dyslexia] body { font-family: Arial, Verdana, Tahoma, sans-serif 
 html[data-a11y-hide-images] img:not([aria-hidden="false"]) { display:none !important; }
 html[data-a11y-grayscale] { filter: grayscale(1) !important; }
 html[data-a11y-focus-ring] *:focus { outline: 3px solid #1ea7ff !important; outline-offset: 2px !important; }
+/* Always stop animations when the toggle sets data-a11y-pause-anim */
+html[data-a11y-pause-anim],
+html[data-a11y-pause-anim] *:not(#a11y-widget-root):not(#a11y-reading-mask):not(#a11y-widget-root *),
+html[data-a11y-pause-anim] *::before,
+html[data-a11y-pause-anim] *::after{
+  animation: none !important;
+  animation-play-state: paused !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+/* Also respect OS "Reduce Motion" even if the toggle is off */
 @media (prefers-reduced-motion: reduce) {
-  html:not([data-a11y-pause-anim-off]) *:not(#a11y-widget-root):not(#a11y-reading-mask):not(#a11y-widget-root *) { animation: none !important; transition: none !important; }
+  html:not([data-a11y-pause-anim-off]) *:not(#a11y-widget-root):not(#a11y-reading-mask):not(#a11y-widget-root *),
+  html:not([data-a11y-pause-anim-off]) *::before,
+  html:not([data-a11y-pause-anim-off]) *::after{
+    animation: none !important;
+    animation-play-state: paused !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* ===== Skip link ===== */
