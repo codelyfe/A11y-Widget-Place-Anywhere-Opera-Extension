@@ -6,7 +6,7 @@ Chrome Extension - https://github.com/codelyfe/A11y-Widget-Place-Anywhere-Chrome
 
 Firefox Add-on - https://github.com/codelyfe/A11y-Widget-Place-Anywhere-Firefox-Addon
 
-Demo - https://shipwr3ck.com/a11y-demo.html
+Demo - https://codelyfe.github.io/a11y-demo.html
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](LICENSE)
 ![Vanilla JS](https://img.shields.io/badge/JS-vanilla-informational)
